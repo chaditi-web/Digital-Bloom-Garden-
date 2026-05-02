@@ -1,0 +1,11 @@
+{
+  "name": "Digital Bloom Garden",
+  "description": "A real-time hand-gesture flower garden using MediaPipe Hands. Grow stems with your left hand and bloom petals with your right.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "hand_tracking",
+    "canvas_animation"
+  ]
+}
