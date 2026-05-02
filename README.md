@@ -14,7 +14,7 @@ and bloom flowers with your hands — no touch required.
 
 ## 🚀 Live Demo
 
-👉 https://vercel.com/chaditi-webs-projects/digital-bloom-garden/255pteGnQ8GizbubbJ2tu5Hno3Y6
+👉 https://digital-bloom-garden.vercel.app/
 
 ## 🛠️ Tech Stack
 
