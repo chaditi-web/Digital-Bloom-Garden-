@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌸 Digital Bloom Garden
 
-# Run and deploy your AI Studio app
+A real-time hand gesture flower garden that uses your webcam and AI to grow 
+and bloom flowers with your hands — no touch required.
 
-This contains everything you need to run your app locally.
+![Demo Banner](./banner.png)
 
-View your app in AI Studio: https://ai.studio/apps/4cecd8d5-16ec-40a7-ac15-557cf1b1fdb1
+## ✨ How It Works
 
-## Run Locally
+- 📷 Your webcam feed becomes the background
+- 🤚 **Left hand** controls stem **growth** — spread your fingers to grow
+- 🌸 **Right hand** controls petal **bloom** — open your hand to bloom
+- Built with MediaPipe Hands + Gemini AI + React + TypeScript
 
-**Prerequisites:**  Node.js
+## 🚀 Live Demo
 
+👉 [Try it here](https://your-vercel-link.vercel.app)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- React + TypeScript + Vite
+- MediaPipe Hands (hand landmark detection)
+- Google Gemini API (via AI Studio)
+- HTML5 Canvas (flower rendering)
+
+## 💻 Run Locally
+
+**Prerequisites:** Node.js
+
+1. Clone the repo
+```bash
+   git clone https://github.com/chaditi-web/Digital-Bloom-Garden-.git
+   cd Digital-Bloom-Garden-
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Add your Gemini API key — create a `.env.local` file: AIzaSyDsKca3S5e-KVr0hzBoAdkEtc81nFYFluM
+4. Run the app
+```bash
+   npm run dev
+```
+
+5. Open `http://localhost:5173` in Chrome → allow camera → show your hands 🌸
+
+## 📸 Screenshots
+
+| Closed Bud | Mid Bloom | Full Bloom |
+|---|---|---|
+| ![bud](./screenshots/bud.png) | ![mid](./screenshots/mid.png) | ![full](./screenshots/full.png) |
+
+## 🙋‍♀️ Made By
+
+**Aditi** — [GitHub](https://github.com/chaditi-web)
+
+Built during gap year using Google AI Studio + Gemini 2.5 Pro.
